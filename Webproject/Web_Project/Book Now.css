@@ -1,0 +1,48 @@
+  .navbar{
+	height: 80px;
+	width: 100%;
+	background: rgba(0,0,0,0.4);
+}
+.logo{
+	width: 70px;
+	height: auto;
+	padding: 10px 100px;
+	border-radius: 100%;
+	
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+	padding: 6px 13px;
+	font-family: sans-serif;
+}
+.navbar ul li a:hover{
+	background:linear-gradient(#7d4301, #085424);
+	border-radius: 8px;
+}
+body{
+	background: url(img4.jpg);
+}
+.book{
+	background: url(img4.jpg);
+	filter: opacity(90%);
+	filter: brightness(70%);
+	font-size: 17px;
+}
+.btn{
+	font-size: 16px;
+	font-weight: bold;
+	background: linear-gradient(#1f402a,#6e560f);
+	color: white;
+}
